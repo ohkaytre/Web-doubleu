@@ -1,0 +1,53 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-artist",
+      "description": "DoubleU in a dimly lit studio with vintage synthesizers.",
+      "imageUrl": "https://picsum.photos/seed/doubleu1/1200/800",
+      "imageHint": "musician studio"
+    },
+    {
+      "id": "album-faded-out",
+      "description": "The cover art for the single 'Faded Out', featuring a blurred sunset.",
+      "imageUrl": "https://picsum.photos/seed/fadedout/600/600",
+      "imageHint": "abstract sunset"
+    },
+    {
+      "id": "memory-concert",
+      "description": "A grainy black and white photo of a live concert crowd.",
+      "imageUrl": "https://picsum.photos/seed/crowd1/800/600",
+      "imageHint": "concert crowd"
+    },
+    {
+      "id": "memory-lyrics",
+      "description": "Handwritten lyrics on a yellowed piece of paper.",
+      "imageUrl": "https://picsum.photos/seed/lyrics1/800/1000",
+      "imageHint": "handwritten lyrics"
+    },
+    {
+      "id": "digital-attic-polaroid",
+      "description": "A Polaroid of a messy desk with a coffee cup and music sheets.",
+      "imageUrl": "https://picsum.photos/seed/polaroid1/500/500",
+      "imageHint": "vintage desk"
+    },
+    {
+      "id": "discography-resonance",
+      "description": "Atmospheric blue cover for the Resonance album.",
+      "imageUrl": "https://picsum.photos/seed/resonance/600/600",
+      "imageHint": "blue abstract"
+    },
+    {
+      "id": "discography-echoes",
+      "description": "Minimalist geometric shapes for the Echoes EP.",
+      "imageUrl": "https://picsum.photos/seed/echoes/600/600",
+      "imageHint": "minimalist art"
+    },
+    {
+      "id": "listening-party-bg",
+      "description": "Blurred lights of a small intimate venue.",
+      "imageUrl": "https://picsum.photos/seed/party1/1200/800",
+      "imageHint": "blurred venue"
+    }
+  ]
+}

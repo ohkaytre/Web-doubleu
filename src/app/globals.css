@@ -1,0 +1,85 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 219 18% 12%;
+    --foreground: 40 25% 90%;
+    --card: 219 18% 14%;
+    --card-foreground: 40 25% 90%;
+    --popover: 219 18% 12%;
+    --popover-foreground: 40 25% 90%;
+    --primary: 29 45% 57%;
+    --primary-foreground: 219 18% 12%;
+    --secondary: 6 57% 72%;
+    --secondary-foreground: 219 18% 12%;
+    --muted: 219 18% 20%;
+    --muted-foreground: 40 10% 70%;
+    --accent: 6 57% 72%;
+    --accent-foreground: 219 18% 12%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 40 25% 90%;
+    --border: 219 18% 25%;
+    --input: 219 18% 25%;
+    --ring: 29 45% 57%;
+    --radius: 0.75rem;
+
+    --sidebar-background: 219 18% 14%;
+    --sidebar-foreground: 40 25% 90%;
+    --sidebar-primary: 29 45% 57%;
+    --sidebar-primary-foreground: 219 18% 12%;
+    --sidebar-accent: 219 18% 20%;
+    --sidebar-accent-foreground: 29 45% 57%;
+    --sidebar-border: 219 18% 25%;
+    --sidebar-ring: 29 45% 57%;
+  }
+
+  * {
+    -webkit-tap-highlight-color: transparent;
+    @apply border-border;
+  }
+
+  html, body {
+    overscroll-behavior-y: none;
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+    user-select: none; /* Prevent text selection for native feel */
+  }
+
+  /* Allow selection only in inputs and textareas */
+  input, textarea {
+    user-select: text;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline text-primary;
+  }
+}
+
+.vintage-overlay {
+  background-image: url("https://www.transparenttextures.com/patterns/pinstriped-suit.png");
+  opacity: 0.05;
+  pointer-events: none;
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Custom scrollbar for a cleaner mobile look */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
